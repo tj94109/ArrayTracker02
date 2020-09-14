@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/ArrayTracker.dir/main.cpp.o CMakeFiles/ArrayTracker.dir/arrayTracker.cpp.o  -o ArrayTracker 
