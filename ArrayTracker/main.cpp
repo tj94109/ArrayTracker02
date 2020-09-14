@@ -24,7 +24,7 @@ void badSort(arrayTracker& anArray){ // made pass by reference so as to NOT make
 }
 
 int main(){
-    arrayTracker anArray;
+    arrayTracker anArray(10);
     anArray.displayArray();
     badSort(anArray);
     cout << "data actions: " << anArray.getUseCount() << "\n";

@@ -2,14 +2,27 @@
 #define ARRAYTRACKER_CPP
 
 #include<iostream>
+#include<ctime>
+#include<random>
 #include "arrayTracker.h"
 
 using namespace std;
 
 arrayTracker::arrayTracker(){
     useCount = 0;
-    arraySize = 7;
+    arraySize = 0;
 }
+
+arrayTracker::arrayTracker(int arraySize){
+    useCount =0;
+    this->arraySize = arraySize;
+    int receipt = (unsigned) time(0);
+    srand(receipt);
+    for(int i=0; i<arraySize; i++){
+        items[i] = rand()%arraySize;
+    }
+}
+
 int arrayTracker::getItem(int itemIndx){
     if(itemIndx < 0 || itemIndx >= arraySize){
        cout << "Get Index " << itemIndx << "Out of Bounds\n";
