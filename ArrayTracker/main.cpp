@@ -6,33 +6,27 @@ arrayTracker anArray;
 
 const int ARRAY_SIZE =  10;
 
-int badSort(int anArray[]){
+void badSort(arrayTracker& anArray){ // made pass by reference so as to NOT make a copy everytime
     bool haveDoneSwap = true;
-    int arrayInteractions = 0;
     int temp = 0;
     while(haveDoneSwap){
         haveDoneSwap = false;
-        for(int i = 0; i < ARRAY_SIZE -1; i++){
-            arrayInteractions +=2;
-            if(anArray[i] > anArray[i+1]){
+        for(int i = 0; i < anArray.getArraySize()-1; i++){
+            if(anArray.getItem(i)  > anArray.getItem(i+1)){
                 haveDoneSwap = true;
-                arrayInteractions+=1;
-                temp = anArray[i];
-                arrayInteractions +=2;
-                anArray[i] = anArray[i+1];
-                arrayInteractions +=1;
-                anArray[i+1] = temp;
+                temp = anArray.getItem(i);
+                anArray.setItem(i, anArray.getItem(i+1));
+                anArray.setItem(i+1, temp);
             }
        }
 
     }
-    return arrayInteractions;
 }
 
 int main(){
     arrayTracker anArray;
     anArray.displayArray();
-    //int arrayInteractions = badSort(anArray);
+    badSort(anArray);
     cout << "data actions: " << anArray.getUseCount() << "\n";
     anArray.displayArray();
 

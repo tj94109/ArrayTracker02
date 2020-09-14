@@ -16,6 +16,7 @@ class arrayTracker
         void setItem(int itemIndx, int newValue);
         void displayArray();
         int getUseCount();
+        int getArraySize();
 };
 
 #endif // ARRAYTRACKER_H

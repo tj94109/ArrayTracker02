@@ -11,10 +11,25 @@ arrayTracker::arrayTracker(){
     arraySize = 7;
 }
 int arrayTracker::getItem(int itemIndx){
-    return items[itemIndx];
+    if(itemIndx < 0 || itemIndx >= arraySize){
+       cout << "Get Index " << itemIndx << "Out of Bounds\n";
+    }
+    else
+    {
+       useCount++;
+       return items[itemIndx];
+       return 0;
+    };
+
 }
 void arrayTracker::setItem(int itemIndx, int newValue){
-    items[itemIndx] = newValue;
+    if(itemIndx < 0 || itemIndx >= arraySize){
+        cout << "Set Index " << itemIndx << "Out of Bounds\n";
+    }else{
+        useCount++;
+        items[itemIndx] = newValue;
+    }
+
 }
 void arrayTracker::displayArray(){
     for(int i=0; i<arraySize; i++){
@@ -30,4 +45,9 @@ void arrayTracker::displayArray(){
 int arrayTracker::getUseCount(){
     return useCount;
 }
+
+int arrayTracker::getArraySize(){
+    return arraySize;
+}
+
 #endif
