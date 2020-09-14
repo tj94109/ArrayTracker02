@@ -14,7 +14,7 @@ arrayTracker::arrayTracker(){
 }
 
 arrayTracker::arrayTracker(int arraySize){
-    useCount =0;
+    useCount = 0;
     this->arraySize = arraySize;
     int receipt = (unsigned) time(0);
     srand(receipt);
@@ -22,6 +22,21 @@ arrayTracker::arrayTracker(int arraySize){
         items[i] = rand()%arraySize;
     }
 }
+
+arrayTracker::arrayTracker(int arraySize, int seedValue){
+
+    useCount = 0;
+    this->arraySize =arraySize;
+    int receipt = seedValue;
+    srand(receipt);
+    for(int i=0; i<arraySize; i++){
+        items[i] = rand()%arraySize;
+    }
+
+
+
+}
+
 
 int arrayTracker::getItem(int itemIndx){
     if(itemIndx < 0 || itemIndx >= arraySize){

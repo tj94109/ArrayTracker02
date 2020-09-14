@@ -13,6 +13,7 @@ class arrayTracker
     public:
         arrayTracker();
         arrayTracker(int arraySize);
+        arrayTracker(int arraySize, int seedValue);
         int getItem(int itemIndx);
         void setItem(int itemIndx, int newValue);
         void displayArray();
