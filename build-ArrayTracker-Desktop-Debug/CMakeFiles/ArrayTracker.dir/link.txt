@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/ArrayTracker.dir/main.cpp.o CMakeFiles/ArrayTracker.dir/arrayTracker.cpp.o  -o ArrayTracker 
+/usr/bin/g++  -g   CMakeFiles/ArrayTracker.dir/main.cpp.o CMakeFiles/ArrayTracker.dir/arrayTracker.cpp.o CMakeFiles/ArrayTracker.dir/sortSolution.cpp.o  -o ArrayTracker 

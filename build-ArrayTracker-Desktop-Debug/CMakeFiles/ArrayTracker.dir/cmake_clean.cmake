@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ArrayTracker.dir/main.cpp.o"
   "CMakeFiles/ArrayTracker.dir/arrayTracker.cpp.o"
+  "CMakeFiles/ArrayTracker.dir/sortSolution.cpp.o"
   "ArrayTracker.pdb"
   "ArrayTracker"
 )

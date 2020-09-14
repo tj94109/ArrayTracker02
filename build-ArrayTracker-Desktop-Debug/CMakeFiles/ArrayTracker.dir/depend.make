@@ -6,4 +6,9 @@ CMakeFiles/ArrayTracker.dir/arrayTracker.cpp.o: /home/TJ/Documents/cPlusPlus/M04
 
 CMakeFiles/ArrayTracker.dir/main.cpp.o: /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/arrayTracker.h
 CMakeFiles/ArrayTracker.dir/main.cpp.o: /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/main.cpp
+CMakeFiles/ArrayTracker.dir/main.cpp.o: /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/sortSolution.h
+
+CMakeFiles/ArrayTracker.dir/sortSolution.cpp.o: /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/arrayTracker.h
+CMakeFiles/ArrayTracker.dir/sortSolution.cpp.o: /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/sortSolution.cpp
+CMakeFiles/ArrayTracker.dir/sortSolution.cpp.o: /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/sortSolution.h
 

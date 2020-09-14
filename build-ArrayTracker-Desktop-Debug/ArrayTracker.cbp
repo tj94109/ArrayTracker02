@@ -89,6 +89,12 @@
 		<Unit filename="/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/main.cpp">
 			<Option target="ArrayTracker"/>
 		</Unit>
+		<Unit filename="/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/sortSolution.cpp">
+			<Option target="ArrayTracker"/>
+		</Unit>
+		<Unit filename="/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/sortSolution.h">
+			<Option target="ArrayTracker"/>
+		</Unit>
 		<Unit filename="/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/arrayTracker.cpp" "/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-ArrayTracker-Desktop-Debug/CMakeFiles/ArrayTracker.dir/arrayTracker.cpp.o"
   "/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/main.cpp" "/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-ArrayTracker-Desktop-Debug/CMakeFiles/ArrayTracker.dir/main.cpp.o"
+  "/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/ArrayTracker/sortSolution.cpp" "/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-ArrayTracker-Desktop-Debug/CMakeFiles/ArrayTracker.dir/sortSolution.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
