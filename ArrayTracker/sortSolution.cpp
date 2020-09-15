@@ -26,6 +26,10 @@ void sortSolution::badSort(arrayTracker* anArrayPtr){ // made pass by reference 
     }
 }
 
+void sortSolution::noSort(arrayTracker* anArrayPtr){
+
+}
+
 
 
 

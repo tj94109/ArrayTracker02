@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-
 CMakeFiles/ArrayTracker.dir/all:
 	$(MAKE) -f CMakeFiles/ArrayTracker.dir/build.make CMakeFiles/ArrayTracker.dir/depend
 	$(MAKE) -f CMakeFiles/ArrayTracker.dir/build.make CMakeFiles/ArrayTracker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-ArrayTracker-Desktop-Debug/CMakeFiles --progress-num=1,2,3,4 "Built target ArrayTracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-ArrayTracker-Desktop-Debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target ArrayTracker"
 .PHONY : CMakeFiles/ArrayTracker.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/ArrayTracker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ArrayTracker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-ArrayTracker-Desktop-Debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-ArrayTracker-Desktop-Debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ArrayTracker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/TJ/Documents/cPlusPlus/M04/Homework/ArrayTracker/build-ArrayTracker-Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/ArrayTracker.dir/rule

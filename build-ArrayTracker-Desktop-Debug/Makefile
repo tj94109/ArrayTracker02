@@ -204,6 +204,33 @@ sortSolution.cpp.s:
 	$(MAKE) -f CMakeFiles/ArrayTracker.dir/build.make CMakeFiles/ArrayTracker.dir/sortSolution.cpp.s
 .PHONY : sortSolution.cpp.s
 
+sortTester.o: sortTester.cpp.o
+
+.PHONY : sortTester.o
+
+# target to build an object file
+sortTester.cpp.o:
+	$(MAKE) -f CMakeFiles/ArrayTracker.dir/build.make CMakeFiles/ArrayTracker.dir/sortTester.cpp.o
+.PHONY : sortTester.cpp.o
+
+sortTester.i: sortTester.cpp.i
+
+.PHONY : sortTester.i
+
+# target to preprocess a source file
+sortTester.cpp.i:
+	$(MAKE) -f CMakeFiles/ArrayTracker.dir/build.make CMakeFiles/ArrayTracker.dir/sortTester.cpp.i
+.PHONY : sortTester.cpp.i
+
+sortTester.s: sortTester.cpp.s
+
+.PHONY : sortTester.s
+
+# target to generate assembly for a file
+sortTester.cpp.s:
+	$(MAKE) -f CMakeFiles/ArrayTracker.dir/build.make CMakeFiles/ArrayTracker.dir/sortTester.cpp.s
+.PHONY : sortTester.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... sortSolution.o"
 	@echo "... sortSolution.i"
 	@echo "... sortSolution.s"
+	@echo "... sortTester.o"
+	@echo "... sortTester.i"
+	@echo "... sortTester.s"
 .PHONY : help
 
 
